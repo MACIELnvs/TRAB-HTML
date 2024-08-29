@@ -1,2 +1,3 @@
 # TRAB-HTML
-Trabalho em HTML 
+Trabalho em HTML sobre a tipografia de fontes.
+
