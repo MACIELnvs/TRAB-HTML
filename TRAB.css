@@ -1,0 +1,90 @@
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather&family=Pacifico&display=swap');
+
+/* Fonte Display personalizada do dafont.com */
+@font-face {
+    font-family: 'CustomDisplay';
+    src: url('fonts/custom-display.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#introducao, #glifos, #anatomia, #categorias, #importacao, #ferramentas {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#categorias h3 {
+    font-family: 'CustomDisplay', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin: 10px 0;
+    padding: 0 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para Exemplos de Fontes */
+p[style*="font-family"] {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 15px 0;
+}
